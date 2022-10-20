@@ -1,2 +1,2 @@
 # hcportfolio.github.io
-website portfolio
+Website Portfolio

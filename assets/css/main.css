@@ -4094,3 +4094,46 @@ h1{
 		border-radius: 8px;
 	}
 }
+
+/*rotating words*/
+
+.title {
+	position: relative;
+	color: #fff;
+}
+.rotate-words {
+	display: inline;
+	margin-left: 20px;
+}
+.rotate-words span {
+		width: max-content;
+		position: absolute;
+		background-color: #bb93fc;
+		padding-inline: 20px;
+		opacity: 0;
+		transform-origin: 20% 75%;
+		animation: rotateWords 12s
+		var(--d) linear infinite;
+}
+
+@keyframes rotateWords {
+	5% {
+		opacity: 1;
+	}
+
+	10%,
+	20% {
+		opacity: 1;
+		transform: rotate(3deg);
+	}
+
+	15% {
+		transform: rotate(-1deg);
+	}
+
+	25% {
+		opacity: 0;
+		transform: translateY(100px);
+		rotate(10deg);
+	}
+}

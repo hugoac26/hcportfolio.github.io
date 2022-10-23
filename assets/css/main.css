@@ -3941,7 +3941,7 @@ html,body{
 }
 h1{
   font-size: 4rem;
-  text-align: center;
+  text-align: left;
   color: #fff;
   text-shadow: 5px 5px black;
   margin-top: 50px;
@@ -4027,8 +4027,14 @@ h1{
 .JavaScript span{
   width: 50%;
 }
-.react span{
+.python span{
+  width: 85%;
+}
+.csp span {
   width: 80%;
+}
+.php span {
+  width: 30%;
 }
 @keyframes showText2 {
   100%{
@@ -4044,16 +4050,21 @@ h1{
 .JavaScript span::after{
   content: "50%";
 }
-.react span::after{
+.python span::after{
+  content: "85%";
+}
+.csp span::after{
   content: "80%";
 }
-
+.php span::after {
+  content: "30%";
+}
 /* Media Query */
 /* For tablet */
 @media screen and (max-width:900px) {
 	h1 {
 		font-size: 3rem;
-		text-align: center;
+		text-align: left;
 		color: #fff;
 		text-shadow: 3px 4px black;
 	}
@@ -4070,7 +4081,7 @@ h1{
 @media screen and (max-width :600px) {
 	h1 {
 		font-size: 2rem;
-		text-align: center;
+		text-align: left;
 		color: #fff;
 		text-shadow: 3px 4px black;
 	}

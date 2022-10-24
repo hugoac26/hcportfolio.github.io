@@ -4103,16 +4103,16 @@ h1{
 }
 .rotate-words {
 	display: inline;
-	margin-left: 20px;
+	margin-left: 10px;
 }
 .rotate-words span {
 		width: max-content;
 		position: absolute;
 		background-color: #bb93fc;
-		padding-inline: 20px;
+		padding-inline: 10px;
 		opacity: 0;
 		transform-origin: 20% 75%;
-		animation: rotateWords 12s
+		animation: rotateWords 20s
 		var(--d) linear infinite;
 }
 

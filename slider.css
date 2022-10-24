@@ -97,3 +97,38 @@ section:last-child {
   height: 30px;
   width: 30px;
 }
+
+/* For tablet */
+@media screen and (max-width:900px) {
+    h1 {
+        font-size: 3rem;
+        text-align: left;
+        color: #fff;
+        text-shadow: 3px 4px black;
+    }
+
+    .container {
+        padding: 15px 20px;
+        width: 600px;
+        background: #fff;
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+        border-radius: 10px;
+    }
+}
+/* For mobile */
+@media screen and (max-width :600px) {
+    h1 {
+        font-size: 2rem;
+        text-align: left;
+        color: #fff;
+        text-shadow: 3px 4px black;
+    }
+
+    .container {
+        padding: 10px 10px;
+        width: 400px;
+        background: #fff;
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+        border-radius: 8px;
+    }
+}

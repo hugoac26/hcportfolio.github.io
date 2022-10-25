@@ -4036,6 +4036,9 @@ h1{
 .php span {
   width: 30%;
 }
+.VBA span {
+	width: 95%;
+}
 @keyframes showText2 {
   100%{
     opacity: 1;
@@ -4058,6 +4061,9 @@ h1{
 }
 .php span::after {
   content: "30%";
+}
+.VBA span::after {
+	content: "95%";
 }
 /* Media Query */
 /* For tablet */

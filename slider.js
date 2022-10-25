@@ -6,6 +6,7 @@ const imgs = [
   'https://img.icons8.com/color/512/000000/html-5--v1.png',
   'https://img.icons8.com/color/512/000000/css3.png',
   'https://cdn.icon-icons.com/icons2/2699/PNG/512/php_horizontal_logo_icon_170852.png',
+  'https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vba_icon_130097.png',
 
 ]
 
